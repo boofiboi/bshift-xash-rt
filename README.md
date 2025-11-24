@@ -25,4 +25,15 @@
 #### I am only here to learn how to mess around with GLTF, PBR textures and RTGL1.
 #### Do not expect professional grade quality from this conversion, it is my first time doing this sort of stuff.
 
-
+ - [x] ***ba_tram1***
+ - [ ] ***ba_tram2***   
+   - [ ] **Fix the func_illusionary at the start of the map [The giant black rectangle]** (Probably impossible without altering engine code, maybe I can force the texture it uses  to be translucent/invisible [Still haven't figured out how, textures.json doesn't seem to know it exists])
+   - [ ] **Fix missing textures** (Involves remaking the base texture thats missing as a .ktx2 file, since a texture missing = it is an invalid .tga that the base engine just ran with, RTGL1 however does not and doesn't properly export it, which causes the .gltf scene for the map to not include it, and it just appears as a gray texture)
+	- [ ] **Fix RT fireflies at the start of the map**
+- [x] ***ba_tram3***
+  - [ ] **Add some RT sprinkle here and there, as the map is incredibly bland and has a lot of phantom lights**
+- [x] ***ba_security1*** [Short in-between map, no work needed other than exporting the gltf]
+- [ ] ***ba_security2***
+  - [ ]  **Again as with ba_tram2, the map requires a lot of fixing missing/incorectly exported textures** 
+  - [ ] **Fix the elevator lights that go to the armoury**
+  - [ ] **Add some RT sprinkles again**
