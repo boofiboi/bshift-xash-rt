@@ -1,0 +1,1026 @@
+{
+    "version": 0,
+    "array": [
+
+
+
+
+        // -- GLASS -- //
+
+         {"textureName":"#models/glassgibs/chome_glass.mdl" ,"isGlass":true,"forceGenerateNormals":true}
+        ,{"textureName":"#maps/glass_bright.mip"            ,"isGlass":true,"isThinMedia":true}
+        ,{"textureName":"#maps/glass_med.mip"               ,"isGlass":true,"isThinMedia":true}
+        ,{"textureName":"#maps/glassblue1.mip"              ,"isGlass":true,"isThinMedia":true}
+        ,{"textureName":"#maps/generic103.mip"              ,"isGlass":true,"isThinMedia":true}
+        ,{"textureName":"#maps/glassblue2.mip"              ,"isGlass":true,"isThinMedia":true}
+        // questionable ethics
+        ,{"textureName":"#maps/steel.mip"                   ,"isGlassIfTranslucent":true}
+        // microwave
+        ,{"textureName":"#maps/generic108.mip"              ,"isGlassIfTranslucent":true,"isThinMedia":true}
+        // hev cabinet
+        ,{"textureName":"#maps/table2.mip"                  ,"isGlassIfTranslucent":true,"isThinMedia":true}
+        ,{"textureName":"#maps/generic027.mip"              ,"isGlassIfTranslucent":true,"isThinMedia":true}
+        ,{"textureName":"#maps/generic028.mip"              ,"isGlassIfTranslucent":true,"isThinMedia":true}
+        ,{"textureName":"#maps/generic028c.mip"             ,"isGlassIfTranslucent":true,"isThinMedia":true}
+        ,{"textureName":"#maps/glassgreen.mip"              ,"isGlassIfTranslucent":true,"isThinMedia":true}
+        // office fridge glass
+        ,{"textureName":"#maps/crete_bord03.mip"            ,"isGlassIfTranslucent":true,"isThinMedia":false}
+        // c3a2c glass
+        ,{"textureName":"#maps/glass_dark.mip"              ,"isGlassIfTranslucent":true,"isThinMedia":true}
+        // water in we've got hostiles
+        ,{"textureName":"#maps/babtech_bordl52.mip"         ,"isWaterIfTranslucent":true}
+        // c4a1b water
+        ,{"textureName":"#maps/scrollxen1.mip"              ,"isWaterIfTranslucent":true}
+        ,{"textureName":"#maps/scrollxen3.mip"              ,"isWaterIfTranslucent":true}
+        
+        // special case for scientist glasses
+        ,{"textureName":"#models/scientist/SCI3X_Glasses1.mdl","isGlassIfSmooth":true,"forceExactNormals":true}
+        
+
+
+        // -- WEAPONS -- //
+        ,{"textureName":"#models/v_9mmhandgun/bulletCHROME.mdl",            "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_9mmhandgun/chrome.mdl",                  "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        
+        ,{"textureName":"#models/v_9mmAR/HK_chrome.mdl",                    "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_9mmAR/gunsidemap.mdl"                                   ,"metallicDefault":1.0,"roughnessDefault":0.30}
+        ,{"textureName":"#models/v_9mmAR/clip.mdl"                                         ,"metallicDefault":1.0,"roughnessDefault":0.30,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_9mmAR/glback.mdl"                                       ,"metallicDefault":1.0,"roughnessDefault":0.30,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_9mmAR/gunbodyrear.mdl"                                  ,"metallicDefault":1.0,"roughnessDefault":0.30}
+
+        ,{"textureName":"#models/v_357/bluesteelchrome.mdl",                "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_357/pythoncylrear2.mdl",                 "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_357/bulletCHROME.mdl",                   "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        
+        ,{"textureName":"#models/v_crossbow/lensCHROME.mdl",                "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_crossbow/clipside.mdl",                                  "metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_crossbow/slide_rear.mdl.",                               "metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_crossbow/slide_side.mdl",                                "metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_crossbow/slide_top.mdl",                                 "metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_crossbow/grip.mdl",                                      "metallicDefault":0.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_crossbow/stock.mdl",                                     "metallicDefault":0.0,"roughnessDefault":0.08}
+        
+        ,{"textureName":"#models/v_crowbar/crowbar.mdl",                                                                                  "forceGenerateNormals":true}
+
+        ,{"textureName":"#models/v_egon/egonchrome2.mdl",                   "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_egon/blueChrome.mdl",                    "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_egon/handle.mdl",                                        "metallicDefault":0.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_egon/ringCHROME.mdl",                    "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        
+        ,{"textureName":"#models/v_gauss/barrelCHROME.mdl",                 "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_gauss/wire_chrome.mdl",                  "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_gauss/battery.mdl",              "isMirrorIfSmooth":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_gauss/batteryend.mdl",                   "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_gauss/boxtopA.mdl",              "isMirrorIfSmooth":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_gauss/boxrear.mdl",              "isMirrorIfSmooth":true,                                              "forceGenerateNormals":true}
+        ,{"textureName":"#models/v_gauss/boxsideC.mdl",             "isMirrorIfSmooth":true,                                              "forceGenerateNormals":true}
+        ,{"textureName":"#models/v_gauss/spinnerBRIGHT.mdl",                "emissiveMult":1.0}
+        
+        ,{"textureName":"#models/v_grenade/grenade3.mdl",                                   "metallicDefault":0.1,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_grenade/spoont.mdl",                                     "metallicDefault":0.1,"roughnessDefault":0.08,"forceGenerateNormals":true}
+    
+        ,{"textureName":"#models/v_hgun/HGUN_Horn1.mdl",                                    "metallicDefault":0.0,"roughnessDefault":0.05}
+        ,{"textureName":"#models/v_hgun/HGUN_Cheek1.mdl",                                   "metallicDefault":0.0,"roughnessDefault":0.05}
+        ,{"textureName":"#models/v_hgun/HGUN_Back1.mdl",                                    "metallicDefault":0.0,"roughnessDefault":0.05}
+
+        ,{"textureName":"#models/v_rpg/M1CL.mdl",                                           "metallicDefault":0.8,"roughnessDefault":0.3}
+        ,{"textureName":"#models/v_rpg/M2cl.mdl",                                           "metallicDefault":0.8,"roughnessDefault":0.3}
+        ,{"textureName":"#models/v_rpg/join.mdl",                                           "metallicDefault":0.8,"roughnessDefault":0.3}
+
+        ,{"textureName":"#models/v_satchel/expl.mdl",                                       "metallicDefault":0.0,"roughnessDefault":0.1,"forceExactNormals":true}
+        ,{"textureName":"#models/v_satchel/buckleCHROME.mdl",               "isMirror":true,"metallicDefault":0.0,"roughnessDefault":0.08}
+     
+        ,{"textureName":"#models/v_satchel_radio/flapchrome.mdl",           "isGlass":true}
+        ,{"textureName":"#models/v_satchel_radio/detbutn_bright.mdl",       "emissiveMult":1.0}
+        ,{"textureName":"#models/v_satchel_radio/det_front.mdl",                            "metallicDefault":0.1,"roughnessDefault":0.30,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_satchel_radio/det_side.mdl",                             "metallicDefault":0.1,"roughnessDefault":0.30,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_satchel_radio/dettop.mdl",                               "metallicDefault":0.1,"roughnessDefault":0.30,"forceGenerateNormals":true}
+
+        ,{"textureName":"#models/v_shotgun/barrel_chrome.mdl",              "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_shotgun/barrelltop.mdl",                                 "metallicDefault":1.0,"roughnessDefault":0.30}
+        ,{"textureName":"#models/v_shotgun/sidemap.mdl",                                    "metallicDefault":1.0,"roughnessDefault":0.30}
+        ,{"textureName":"#models/v_shotgun/sight.mdl",                                      "metallicDefault":1.0,"roughnessDefault":0.30}
+        ,{"textureName":"#models/v_shotgun/bodyback.mdl",                                   "metallicDefault":1.0,"roughnessDefault":0.30}
+       
+        ,{"textureName":"#models/v_squeak/SQK_Eye1.mdl",                    "emissiveMult":1.0}
+        ,{"textureName":"#models/v_squeak/Chrome1.mdl",                     "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_squeak/SQK_Side1.mdl",                                   "metallicDefault":0.0,"roughnessDefault":0.05}
+        ,{"textureName":"#models/w_squeak/SQK_Eye1.mdl",                    "emissiveMult":1.0}
+        
+        ,{"textureName":"#models/v_tripmine/lensCHROME.mdl",                "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_tripmine/box.mdl",                       "metallicDefault":1.0,"roughnessDefault":0.2,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_tripmine/face.mdl",                      "metallicDefault":1.0,"roughnessDefault":0.2,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_tripmine/light.mdl",                     "metallicDefault":1.0,"roughnessDefault":0.2,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_tripmine/side.mdl",                      "metallicDefault":1.0,"roughnessDefault":0.2,"forceGenerateNormals":true}
+
+        ,{"textureName":"#models/v_crossbow/rubbergloveCHROME.mdl",         "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_crowbar/rubbergloveCHROME.mdl",          "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_egon/rubbergloveCHROME.mdl",             "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_gauss/rubbergloveCHROME.mdl",            "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_grenade/rubbergloveCHROME.mdl",          "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_hgun/rubbergloveCHROME.mdl",             "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_rpg/rubbergloveCHROME.mdl",              "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_satchel/rubbergloveCHROME.mdl",          "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_satchel_radio/rubbergloveCHROME.mdl",    "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_shotgun/rubbergloveCHROME.mdl",          "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_squeak/rubbergloveCHROME.mdl",           "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_tripmine/rubbergloveCHROME.mdl",         "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_9mmAR/rubbergloveCHROME.mdl",            "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_9mmhandgun/rubbergloveCHROME.mdl",       "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/v_357/RubbergloveCHROME.mdl",              "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+
+        // shells
+        ,{"textureName":"#models/shell/back.mdl",                           "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/shell/bulletCHROME.mdl",                   "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/shell/front.mdl",                          "isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/shotgunshell/shell.mdl",           "isMirrorIfSmooth":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/v_shotgun/shell.mdl",                                      "metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/w_shotbox/shell.mdl",                                      "metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/w_shotbox/topbox_shell.mdl",                               "metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+
+
+
+        // -- MISC -- //
+        ,{"textureName":"#models/w_suit/PLAYER_Chrome1.mdl"     ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/islave/Chrome_1.mdl"           ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/crossbow_bolt/boltCHROME.mdl"  ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/crossbow_bolt/finCHOME.mdl"    ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/w_egon/egonchrome2.mdl"        ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/w_gauss/barrelCHROME.mdl"      ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/w_longjump/black_chrome.mdl"   ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08,"forceGenerateNormals":true}
+        ,{"textureName":"#models/w_medkit/medkit_top.mdl"       ,"isMirrorIfSmooth":true                                      ,"forceGenerateNormals":true}
+     
+        ,{"textureName":"#models/hassassin/chrome.mdl"          ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/hassassin/chrome_latex.mdl"    ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/hassassin/chrome_scratch.mdl"  ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/hassassin/lens_chrome.mdl"     ,"emissiveMult":0.2}
+        ,{"textureName":"#models/hassassin/handgrip.mdl"        ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/hassassin/handfront.mdl"       ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/hassassin/headback.mdl"        ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/hassassin/Handback.mdl"        ,"isMirrorIfSmooth":true,"metallicDefault":0.0,"roughnessDefault":1.0}
+        ,{"textureName":"#models/hassassin/chestfront.mdl"      ,"isMirrorIfSmooth":true,"metallicDefault":0.0,"roughnessDefault":1.0}
+
+        ,{"textureName":"#models/agrunt/Chrome2.mdl"        ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/barney/BX_Chrome1.mdl"     ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/hgrunt/goggle_chrome.mdl"  ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/player/PLAYER_Chrome1.mdl" ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/miniturret/Chrome2.mdl"    ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/sentry/SENTRY_Chrome3.mdl" ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+        ,{"textureName":"#models/sentry/SENTRY_Chrome2.mdl" ,"isMirror":true,"metallicDefault":1.0,"roughnessDefault":0.08}
+
+        ,{"textureName":"#models/baby_headcrab/babychrome.mdl"  ,"isGlass":true}
+
+        // blast pit bubbles
+        ,{"textureName":"#models/pipe_bubbles/bubble.mdl", "forceAlphaTest":true}
+
+
+        // -- WATER -- //
+
+        ,{"textureName":"#maps/!c2a54.mip"                  ,"isWater":true}
+        ,{"textureName":"#maps/water4b.mip"                 ,"isWater":true}
+        ,{"textureName":"#maps/+0laser1fall.mip"            ,"isWater":true}
+        ,{"textureName":"#maps/+1laser1fall.mip"            ,"isWater":true}
+        ,{"textureName":"#maps/+2laser1fall.mip"            ,"isWater":true}
+        ,{"textureName":"#maps/+3laser1fall.mip"            ,"isWater":true}
+        ,{"textureName":"#maps/+4laser1fall.mip"            ,"isWater":true}
+        ,{"textureName":"#maps/+0waterf.mip"                ,"isWater":true}
+        ,{"textureName":"#maps/+1waterf.mip"                ,"isWater":true}
+        ,{"textureName":"#maps/+2waterf.mip"                ,"isWater":true}
+        ,{"textureName":"#maps/+3waterf.mip"                ,"isWater":true}
+        ,{"textureName":"#maps/+4waterf.mip"                ,"isWater":true}
+        ,{"textureName":"#maps/!radio.mip"                  ,"forceOpaque":true,"emissiveMult":1.0}
+        ,{"textureName":"#maps/!greenslime.mip"             ,"forceOpaque":true,"emissiveMult":1.0}
+        ,{"textureName":"#maps/!toxicgrn2.mip"              ,"forceOpaque":true,"emissiveMult":1.0}
+
+
+
+        // -- POTENTIALLY IGNORE -- //
+        // barney's flashlight volumetric
+        // intro sun volumetrics
+        ,{"textureName":"#maps/c0a0yellow.mip"              ,"emissiveMult":0.01,"forceTranslucent":true}
+        
+
+        
+        // -- NORMALS -- /
+
+        ,{"textureName":"#models/wetfloorsign_gibs/wetfloorsign.mdl"    ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/woodgibs/Image9.mdl"                   ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/ventgibs/vents.mdl"                    ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/blue.mdl"               ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/canteenstrap.mdl"       ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/cd.mdl"                 ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/circboard1.mdl"         ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/floppy1.mdl"            ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/floppy1back.mdl"        ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/floppy2.mdl"            ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/floppy2back.mdl"        ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/grey1.mdl"              ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/hdd.mdl"                ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/Image9.mdl"             ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/littlesd.mdl"           ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/red.mdl"                ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/screwd.mdl"             ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/testerside.mdl"         ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/testertop.mdl"          ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/vac.mdl"                ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/vgrey.mdl"              ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/tech_crategibs/wrench.mdl"             ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/mil_crategibs/mre1.mdl"                ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/mil_crategibs/mre2.mdl"                ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/mil_crategibs/mreside.mdl"             ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/mil_crategibs/Image9.mdl"              ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/med_crategibs/atherm.mdl"               ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/med_crategibs/bandaid.mdl"              ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/med_crategibs/canteenstrap.mdl"         ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/med_crategibs/gauze.mdl"                ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/med_crategibs/Image9.mdl"               ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/med_crategibs/pack1.mdl"                ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/med_crategibs/syringe.mdl"              ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/med_crategibs/tissuebox.mdl"            ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/metalplategibs/metal1.mdl"              ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/metalplategibs/metal2.mdl"              ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/metalplategibs_dark/metal1.mdl"         ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/metalplategibs_dark/metal2.mdl"         ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/metalplategibs_green/metal1.mdl"        ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/metalplategibs_green/metal2.mdl"        ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/filecabinet/file1.mdl"                  ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/filecabinet/file2.mdl"                  ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/concrete_gibs/c1.mdl"                   ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/concrete_gibs/c2.mdl"                   ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/concrete_gibs/c3.mdl"                   ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/concrete_gibs/c4.mdl"                   ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/powersup.mdl"              ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/red.mdl"                   ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/blue.mdl"                  ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/case.mdl"                  ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/circboard1.mdl"            ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/circboard2.mdl"            ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/grey1.mdl"                 ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/grey2.mdl"                 ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/hdd.mdl"                   ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/computergibs/keybd.mdl"                 ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/cindergibs/brokencinder.mdl"            ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/cindergibs/cinder.mdl"                  ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/ceilinggibs/Ceiling1.mdl"               ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/ceilinggibs/tnnl_flr5c.mdl"             ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/catwalkgibs/Catwalk2.mdl"               ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/catwalkgibs/Catwalk3.mdl"               ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/bookgibs/page2.mdl"                     ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/bookgibs/page3.mdl"                     ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/bookgibs/page4.mdl"                     ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/bookgibs/page5.mdl"                     ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/bookgibs/cover1.mdl"                    ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/bookgibs/cover2.mdl"                    ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/bookgibs/cover3.mdl"                    ,"forceGenerateNormals":true}
+        ,{"textureName":"#models/bookgibs/page1.mdl"                     ,"forceGenerateNormals":true}
+
+
+
+        // -- GLOWING -- //
+        // emissiveMult set with rt_emis_maxscrcolor=32
+
+        // different particles (mainly bullet tracers)
+        ,{"textureName":"#HUD/sprites/dot/frame_00.spr"     ,"emissiveMult":0.1}
+        ,{"textureName":"#HUD/sprites/richo1/frame_00.spr"  ,"emissiveMult":0.1}
+        // rocket launcher, but also gauss laser :(
+        ,{"textureName":"#sprites/smoke/frame_00.spr"       ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/smoke/frame_01.spr"       ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/smoke/frame_02.spr"       ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/smoke/frame_03.spr"       ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/smoke/frame_04.spr"       ,"emissiveMult":1.0}
+        // bullsquid
+        ,{"textureName":"#sprites/tinyspit/frame_00.spr"    ,"emissiveMult":0}
+        ,{"textureName":"#sprites/tinyspit/frame_01.spr"    ,"emissiveMult":0}
+        ,{"textureName":"#sprites/tinyspit/frame_02.spr"    ,"emissiveMult":0}
+        ,{"textureName":"#sprites/tinyspit/frame_03.spr"    ,"emissiveMult":0}
+        ,{"textureName":"#sprites/bigspit/frame_00.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/bigspit/frame_01.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/bigspit/frame_02.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/bigspit/frame_03.spr"     ,"emissiveMult":1.0}
+        // houndeye
+        ,{"textureName":"#sprites/shockwave/frame_00.spr"   ,"emissiveMult":1.0}
+        // vortigaunt
+        ,{"textureName":"#sprites/lgtning/frame_00.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/lgtning/frame_01.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/lgtning/frame_02.spr"     ,"emissiveMult":1.0}
+        // gonarch
+        //,{"textureName":"#sprites/mommaspit/frame_00.spr"   ,"emissiveMult":1.0}
+        //,{"textureName":"#sprites/mommaspit/frame_01.spr"   ,"emissiveMult":1.0}
+        //,{"textureName":"#sprites/mommaspit/frame_02.spr"   ,"emissiveMult":1.0}
+        //,{"textureName":"#sprites/mommaspit/frame_03.spr"   ,"emissiveMult":1.0}
+        //,{"textureName":"#sprites/mommaspout/frame_00.spr"  ,"emissiveMult":1.0}
+        //,{"textureName":"#sprites/mommaspout/frame_01.spr"  ,"emissiveMult":1.0}
+        //,{"textureName":"#sprites/mommablob/frame_00.spr"   ,"emissiveMult":1.0}
+        //,{"textureName":"#sprites/mommablob/frame_01.spr"   ,"emissiveMult":1.0}
+        //,{"textureName":"#sprites/mommablob/frame_02.spr"   ,"emissiveMult":1.0}
+        //,{"textureName":"#sprites/mommablob/frame_03.spr"   ,"emissiveMult":1.0}
+        // gargantua
+        ,{"textureName":"#sprites/gargeye1/frame_00.spr"    ,"emissiveMult":1.0}
+        // controllers
+        ,{"textureName":"#sprites/xspark4/frame_00.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_01.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_02.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_03.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_04.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_05.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_06.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_07.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_08.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_09.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/xspark4/frame_10.spr"     ,"emissiveMult":0.2}
+        // lasers
+        ,{"textureName":"#sprites/laserbeam/frame_00.spr"   ,"emissiveMult":1.0}
+        // gluon laser
+        ,{"textureName":"#sprites/xbeam1/frame_00.spr"              ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/streak/frame_00.spr"              ,"emissiveMult":1.0}
+        // gluon sparks
+        ,{"textureName":"#HUD/sprites/animglow01/frame_00.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#HUD/sprites/animglow01/frame_01.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#HUD/sprites/animglow01/frame_02.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#HUD/sprites/animglow01/frame_03.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#HUD/sprites/animglow01/frame_04.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#HUD/sprites/animglow01/frame_05.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#HUD/sprites/animglow01/frame_06.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/animglow01/frame_00.spr"          ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/animglow01/frame_01.spr"          ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/animglow01/frame_02.spr"          ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/animglow01/frame_03.spr"          ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/animglow01/frame_04.spr"          ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/animglow01/frame_05.spr"          ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/animglow01/frame_06.spr"          ,"emissiveMult":1.0}
+        ,{"textureName":"#HUD/sprites/hotglow/frame_00.spr"         ,"emissiveMult":0.15}
+        ,{"textureName":"#sprites/hotglow/frame_00.spr"             ,"emissiveMult":0.15}
+        // rocket launcher dot
+        ,{"textureName":"#HUD/sprites/laserdot/frame_00.spr"        ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/laserdot/frame_00.spr"            ,"emissiveMult":0.2}
+        // muzzle flash, not 1.0 - textures are low quality, they clip too much
+        ,{"textureName":"#sprites/muz1/frame_00.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz1/frame_01.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz1/frame_02.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz1/frame_03.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz1/frame_04.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz1/frame_05.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz1/frame_06.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz1/frame_07.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz3/frame_00.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz8/frame_00.spr"                ,"emissiveMult":0.3}
+        ,{"textureName":"#HUD/sprites/muzzleflash1/frame_00.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#HUD/sprites/muzzleflash1/frame_01.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#HUD/sprites/muzzleflash2/frame_00.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#HUD/sprites/muzzleflash2/frame_01.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muzzleflash2/frame_00.spr"        ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muzzleflash2/frame_01.spr"        ,"emissiveMult":0.3}
+        ,{"textureName":"#HUD/sprites/muzzleflash3/frame_00.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muzzleflash3/frame_00.spr"        ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/muz4/frame_00.spr"                ,"emissiveMult":0.3}
+        // gluon end particle
+        ,{"textureName":"#sprites/XSpark1/frame_00.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_01.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_02.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_03.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_04.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_05.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_06.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_07.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_08.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_09.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XSpark1/frame_10.spr"     ,"emissiveMult":0.3}
+        // main explosion
+        ,{"textureName":"#sprites/zerogxplode/frame_01.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_02.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_03.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_04.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_05.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_06.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_07.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_08.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_09.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_10.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_11.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_12.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_13.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_14.spr" ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/zerogxplode/frame_00.spr" ,"emissiveMult":0.3}
+        // explosion
+        ,{"textureName":"#sprites/cexplo/frame_00.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_01.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_02.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_03.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_04.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_05.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_06.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_07.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_08.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_09.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_10.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_11.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_12.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_13.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_14.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_15.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_16.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_17.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_18.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_19.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_20.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_21.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_22.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_23.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/cexplo/frame_24.spr"      ,"emissiveMult":0.3}
+        // explosion
+        ,{"textureName":"#sprites/Eexplo/frame_00.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_01.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_02.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_03.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_04.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_05.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_06.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_07.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_08.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_09.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_10.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_11.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_12.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_13.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_14.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_15.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_16.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_17.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_18.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_19.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_20.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_21.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_22.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_23.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Eexplo/frame_24.spr"      ,"emissiveMult":0.3}
+        // explosion
+        ,{"textureName":"#sprites/explode1/frame_00.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/explode1/frame_01.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/explode1/frame_02.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/explode1/frame_03.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/explode1/frame_04.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/explode1/frame_05.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/explode1/frame_06.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/explode1/frame_07.spr"    ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/explode1/frame_08.spr"    ,"emissiveMult":0.3}
+        // explosion
+        ,{"textureName":"#sprites/fexplo/frame_00.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_01.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_02.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_03.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_04.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_05.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_06.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_07.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_08.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_09.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_10.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_11.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_12.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_13.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_14.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_15.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_16.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_17.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_18.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_19.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_20.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_21.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_22.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_23.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_24.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_25.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_26.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_27.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_28.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/fexplo/frame_29.spr"      ,"emissiveMult":0.3}
+        // explosion
+        ,{"textureName":"#sprites/Fexplo1/frame_00.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_01.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_02.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_03.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_04.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_05.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_06.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_07.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_08.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_09.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_10.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_11.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_12.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_13.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_14.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_15.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_16.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_17.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/Fexplo1/frame_18.spr"     ,"emissiveMult":0.3}
+        // explosion
+        ,{"textureName":"#sprites/WXplo1/frame_00.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_01.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_02.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_03.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_04.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_05.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_06.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_07.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_08.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_09.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_10.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_11.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_12.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_13.spr"      ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/WXplo1/frame_14.spr"      ,"emissiveMult":0.3}
+        // fire
+        ,{"textureName":"#sprites/XFFloor/frame_00.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_01.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_02.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_03.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_04.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_05.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_06.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_07.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_08.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_09.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_10.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_11.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_12.spr"     ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/XFFloor/frame_13.spr"     ,"emissiveMult":0.3}
+        // c2a5f furnace
+        ,{"textureName":"#sprites/rjet1/frame_00.spr"       ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/rjet1/frame_01.spr"       ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/rjet1/frame_02.spr"       ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/rjet1/frame_03.spr"       ,"emissiveMult":0.3}
+        ,{"textureName":"#sprites/rjet1/frame_04.spr"       ,"emissiveMult":0.3}
+        // portal in
+        ,{"textureName":"#sprites/enter1/frame_00.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_01.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_02.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_03.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_04.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_05.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_06.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_07.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_08.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_09.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_10.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_11.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_12.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_13.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_14.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_15.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_16.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_17.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_18.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_19.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_20.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_21.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_22.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_23.spr"      ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/enter1/frame_24.spr"      ,"emissiveMult":0.1}
+        // portal out
+        ,{"textureName":"#sprites/exit1/frame_13.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_14.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_15.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_16.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_17.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_18.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_19.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_20.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_21.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_22.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_23.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_24.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_00.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_01.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_02.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_03.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_04.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_05.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_06.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_07.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_08.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_09.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_10.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_11.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/exit1/frame_12.spr"       ,"emissiveMult":0.1}
+        // yellow portal
+        ,{"textureName":"#sprites/tele1/frame_00.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_01.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_02.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_03.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_04.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_05.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_06.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_07.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_08.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_09.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_10.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_11.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_12.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_13.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_14.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_15.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_16.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_17.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_18.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_19.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_20.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_21.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_22.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_23.spr"       ,"emissiveMult":0.1}
+        ,{"textureName":"#sprites/tele1/frame_24.spr"       ,"emissiveMult":0.1}
+        // c3a2d portal
+        ,{"textureName":"#sprites/e-tele1/frame_23.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_24.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_00.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_01.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_02.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_03.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_04.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_05.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_06.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_07.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_08.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_09.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_10.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_11.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_12.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_13.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_14.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_15.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_16.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_17.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_18.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_19.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_20.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_21.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/e-tele1/frame_22.spr"     ,"emissiveMult":0.5}
+        // c3a2d portal prepare
+        ,{"textureName":"#sprites/b-tele1/frame_01.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_02.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_03.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_04.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_05.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_06.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_07.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_08.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_09.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_10.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_11.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_12.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_13.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_14.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_15.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_16.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_17.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_18.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_19.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_20.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_21.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_22.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_23.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_24.spr"     ,"emissiveMult":0.2}
+        ,{"textureName":"#sprites/b-tele1/frame_00.spr"     ,"emissiveMult":0.2}
+        // c3a2d portal bolt
+        ,{"textureName":"#sprites/plasma/frame_00.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/plasma/frame_01.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/plasma/frame_02.spr"      ,"emissiveMult":1.0}
+        // portal sparks
+        ,{"textureName":"#sprites/flare6/frame_18.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_19.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_00.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_01.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_02.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_03.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_04.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_05.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_06.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_07.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_08.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_09.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_10.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_11.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_12.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_13.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_14.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_15.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_16.spr"      ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/flare6/frame_17.spr"      ,"emissiveMult":1.0}
+        // ?
+        ,{"textureName":"#sprites/xbeam3/frame_00.spr"      ,"emissiveMult":1.0}
+        //
+        ,{"textureName":"#sprites/xspark2/frame_04.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_05.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_06.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_07.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_08.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_09.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_10.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_00.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_01.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_02.spr"     ,"emissiveMult":1.0}
+        ,{"textureName":"#sprites/xspark2/frame_03.spr"     ,"emissiveMult":1.0}
+        // nihilanth
+        ,{"textureName":"#sprites/nhth1/frame_00.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_01.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_02.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_03.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_04.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_05.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_06.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_07.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_08.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_09.spr"       ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/nhth1/frame_10.spr"       ,"emissiveMult":0.5}
+        // flares
+        ,{"textureName":"#sprites/XFlare1/frame_12.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_13.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_14.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_15.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_16.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_17.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_18.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_19.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_00.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_01.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_02.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_03.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_04.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_05.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_06.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_07.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_08.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_09.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_10.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare1/frame_11.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_11.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_12.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_13.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_14.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_15.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_16.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_17.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_18.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_19.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_00.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_01.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_02.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_03.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_04.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_05.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_06.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_07.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_08.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_09.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/xflare2/frame_10.spr"     ,"emissiveMult":0.5}
+        ,{"textureName":"#sprites/XFlare3/frame_10.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_11.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_12.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_13.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_14.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_15.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_16.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_17.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_18.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_19.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_00.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_01.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_02.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_03.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_04.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_05.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_06.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_07.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_08.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/XFlare3/frame_09.spr"     ,"emissiveMult":0.5,"forceTranslucent":true}
+        // mushroom explosion
+        ,{"textureName":"#sprites/mushroom/frame_00.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_01.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_02.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_03.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_04.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_05.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_06.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_07.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_08.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_09.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_10.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_11.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_12.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_13.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_14.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_15.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_16.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_17.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_18.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        ,{"textureName":"#sprites/mushroom/frame_19.spr"    ,"emissiveMult":0.5,"forceTranslucent":true}
+        // c2a1 fire
+        ,{"textureName":"#sprites/fire/frame_00.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_01.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_02.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_03.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_04.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_05.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_06.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_07.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_08.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_09.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_10.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_11.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_12.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_13.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        ,{"textureName":"#sprites/fire/frame_14.spr"        ,"emissiveMult":1.0,"forceTranslucent":true}
+        // c2a2h globe
+        ,{"textureName":"#models/sat_globe/array.mdl"       ,"emissiveMult":0.2,"forceTranslucent":true}
+        ,{"textureName":"#models/sat_globe/green.mdl"       ,"emissiveMult":0.2,"forceTranslucent":true}
+        ,{"textureName":"#models/sat_globe/offline.mdl"     ,"emissiveMult":0.2,"forceTranslucent":true}
+        ,{"textureName":"#models/sat_globe/orange.mdl"      ,"emissiveMult":0.2,"forceTranslucent":true}
+        ,{"textureName":"#models/sat_globe/topo.mdl"        ,"emissiveMult":0.2,"forceTranslucent":true} // "isGlass":true,"forceGenerateNormals":true}
+        
+
+
+        // -- LIGHT SOURCE GEOMETRY -- //
+
+        ,{"textureName":"#maps/+0~gymlight.mip"     ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 251, 129]}
+        ,{"textureName":"#maps/+0~light1.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[170, 212, 240]}
+        ,{"textureName":"#maps/+0~light2a.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 251, 129]}
+        ,{"textureName":"#maps/+0~light3a.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[180, 180, 230]}
+        ,{"textureName":"#maps/+0~light4a.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[200, 190, 130]}
+        ,{"textureName":"#maps/+0~light5a.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[80 , 150, 200]}
+        ,{"textureName":"#maps/+0~light6a.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[150, 5  , 5  ]}
+        ,{"textureName":"#maps/~light3a.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[190, 20 , 20 ]}
+        ,{"textureName":"#maps/~light3b.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[192, 192, 240]}
+        ,{"textureName":"#maps/~light3c.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 248, 192]}
+        ,{"textureName":"#maps/~light3d.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[190, 255, 49 ]}
+        ,{"textureName":"#maps/~light3e.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[90 , 190, 140]}
+        ,{"textureName":"#maps/~light3f.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 200, 70 ]}
+        ,{"textureName":"#maps/~light5a.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[210, 246, 255]}
+        ,{"textureName":"#maps/~light5c.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[149, 255, 199]}
+        ,{"textureName":"#maps/~light5d.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[165, 255, 149]}
+        ,{"textureName":"#maps/~light5e.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[232, 63 , 65 ]}
+        ,{"textureName":"#maps/~light5f.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[237, 233, 178]}
+
+        // light panels
+        ,{"textureName":"#maps/litepanel1.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[191, 213, 212]}
+        ,{"textureName":"#maps/panellite1.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[191, 213, 212]}
+        ,{"textureName":"#maps/skkylite.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[252, 153, 105]}
+        ,{"textureName":"#maps/skkylite2.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[191, 213, 212]}
+        ,{"textureName":"#maps/skkylitedawn.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[213, 178, 196]}
+
+        // fifties lights
+        ,{"textureName":"#maps/+0~fifts_lght01.mip" ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[208, 214, 245]}
+        ,{"textureName":"#maps/+0~fifts_lght06.mip" ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[232, 232, 232]}
+        //,{"textureName":"#maps/+0~fifts_lght3.mip"  ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[250, 234, 184]}
+        ,{"textureName":"#maps/+0~fifts_lght4.mip"  ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[160, 170, 220]}
+        ,{"textureName":"#maps/+0~fifts_lght5.mip"  ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[189, 219, 240]}
+        ,{"textureName":"#maps/+0~fifties_lgt2.mip" ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[240, 240, 240]}
+        ,{"textureName":"#maps/+0~fifties_lgt3.mip" ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[232, 232, 232]}
+        ,{"textureName":"#maps/fifties_mon1b.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[100, 100, 180]}
+        //,{"textureName":"#maps/+a~fifties_lgt2.mip" ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[100, 100, 180]}
+        ,{"textureName":"#maps/+a~fifts_lght3.mip"  ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[100, 100, 180]}
+
+        // tunnel lights    
+        ,{"textureName":"#maps/+0~tnnl_lgt1.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[237, 232, 166]}
+        ,{"textureName":"#maps/+0~tnnl_lgt2.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 230, 160]}
+        ,{"textureName":"#maps/+0~tnnl_lgt3.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[210, 210, 236]}
+        ,{"textureName":"#maps/+0~tnnl_lgt4.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 208, 160]}
+
+        // lab lights   
+        ,{"textureName":"#maps/+0lab1_w6.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[150, 160, 210]}
+        ,{"textureName":"#maps/+0lab1_w6b.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[165, 230, 255]}
+        ,{"textureName":"#maps/+0lab1_w7.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[245, 240, 210]}
+        ,{"textureName":"#maps/~lab_crt9a.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[225, 150, 150]}
+        ,{"textureName":"#maps/~lab_crt9b.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[100, 100, 255]}
+        ,{"textureName":"#maps/~lab_crt9c.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[100, 200, 150]}
+        // +0~lab_crt8  50 50 255"           
+
+        // generic 
+        ,{"textureName":"#maps/+0~generic65.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 255, 255]}
+        ,{"textureName":"#maps/+0~generic85.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[36 , 200, 235]}
+        ,{"textureName":"#maps/+0~generic86.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 230, 125]}
+        ,{"textureName":"#maps/+0~generic86b.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[158, 220, 201]}
+        ,{"textureName":"#maps/+0~generic86r.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 0  , 0  ]}
+        ,{"textureName":"#maps/~generic87.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[200, 230, 250]}
+
+        // vending machines front panels  
+        ,{"textureName":"#maps/gen_vend1.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[100, 255, 100]} //0.2
+        ,{"textureName":"#maps/generic87a.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[100, 255, 100]} //0.2
+        // generic89a 40 40 130 0.3
+        ,{"textureName":"#maps/generic90a.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[200, 255, 200]} //0.2
+        ,{"textureName":"#maps/generic88a.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 100, 100]} //0.2
+        ,{"textureName":"#maps/generic105.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 100, 100]} //0.2
+        ,{"textureName":"#maps/generic106.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[100, 255, 100]} //0.2
+        ,{"textureName":"#maps/generic107.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 100, 100]} //0.2
+
+        // flatbed lights 
+        ,{"textureName":"#maps/flatbed_hlite2.mip"  ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[214, 178, 94 ],"lightEvenOnDynamic":true} //10.0
+        ,{"textureName":"#maps/flatbed_lite1.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[214, 178, 94 ],"lightEvenOnDynamic":true} //10.0
+        ,{"textureName":"#maps/flatbed_tlite2.mip"  ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[214, 0  , 3  ],"lightEvenOnDynamic":true}
+
+        // tech lights
+        ,{"textureName":"#maps/tech_lite1.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 236, 162]}
+        ,{"textureName":"#maps/tech_lite2.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[231, 126, 20 ]}
+        ,{"textureName":"#maps/tech_lite3.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[59 , 213, 25 ]}
+
+        // colours
+        ,{"textureName":"#maps/+0~white.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 255, 255]}
+
+        // white 255 255 255
+        ,{"textureName":"#maps/red.mip"             ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 0  , 0  ]}
+        ,{"textureName":"#maps/yellow.mip"          ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 200, 100]}
+
+        // spots  
+        ,{"textureName":"#maps/~spotblue.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[61 , 194, 255]}
+        ,{"textureName":"#maps/~spotgreen.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[61 , 255, 126]}
+        ,{"textureName":"#maps/~spotred.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 26 , 29 ]}
+        ,{"textureName":"#maps/~spotyellow.mip"     ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 248, 138]}
+
+        // crystals
+        ,{"textureName":"#maps/crys_1a.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[248, 193, 255]}
+        ,{"textureName":"#maps/crys_1b.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[248, 193, 255]}
+        ,{"textureName":"#maps/crys_1c.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[248, 193, 255]}
+        ,{"textureName":"#maps/crys_1top.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[248, 193, 255]}
+        ,{"textureName":"#maps/crys_2a.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[169, 255, 182]}
+        ,{"textureName":"#maps/crys_2b.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[169, 255, 182]}
+        ,{"textureName":"#maps/crys_2top.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[169, 255, 182]}
+        ,{"textureName":"#maps/crys_3a.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 152, 79 ]}
+        ,{"textureName":"#maps/crys_3b.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 152, 79 ]}
+        ,{"textureName":"#maps/crys_3top.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 152, 79 ]}
+        ,{"textureName":"#maps/crys_4a.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 209, 153]}
+        ,{"textureName":"#maps/crys_4b.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 92 , 92 ]}
+
+        // misc
+        ,{"textureName":"#maps/+0~c2a4_lgt1.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[235, 214, 52 ]}
+        ,{"textureName":"#maps/+0~drkmtllgt1.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[235, 194, 98 ]}
+        ,{"textureName":"#maps/+0~drkmtls1.mip"     ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[205, 0  , 0  ]}
+        ,{"textureName":"#maps/+0~drkmtls2.mip"     ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[150, 120, 20 ]}
+        ,{"textureName":"#maps/+0~drkmtls2c.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 200, 100]}
+        //+0drkmtl_scrn 60  80  255"     
+        //+1drkmtl_scrn 60  80  255"     
+        //+2drkmtl_scrn 60  80  255" 
+        ,{"textureName":"#maps/drkmtl_scrn3.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[20 , 20 , 255]}
+        ,{"textureName":"#maps/emerglight.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 200, 100]}
+
+        ,{"textureName":"#maps/subway_lights.mip"   ,"emissiveMult":0.1}
+        ,{"textureName":"#maps/+0buttonlite.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[235, 22 , 22 ]}
+        ,{"textureName":"#maps/+abuttonlite.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[24 , 235, 24 ]}
+        ,{"textureName":"#maps/c1a3c_map.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[100, 100, 255]}
+        ,{"textureName":"#maps/elev2_ciel.mip"      ,"emissiveMult":1,"lightIntensity":100,"lightColor":[255, 200, 100]}
+        ,{"textureName":"#maps/fill1.mip"           ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[142, 191, 176]}
+        ,{"textureName":"#maps/fill2.mip"           ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[247, 164, 124]}
+        ,{"textureName":"#maps/fill3.mip"           ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[90 , 100, 180]}
+        ,{"textureName":"#maps/~trn_lt1.mip"        ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[240, 236, 199]}
+        //,{"textureName":"#maps/+alab1_w6.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[150, 160, 210]}
+        //glassgreen 50  255 50
+        ,{"textureName":"#maps/c3a2_light.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[234, 193, 0  ]}
+        ,{"textureName":"#maps/crete3_wall02a.mip"  ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[86 , 144, 48 ]}
+        ,{"textureName":"#maps/c4a1a_spike1b.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[162, 173, 255]}
+        ,{"textureName":"#maps/xeno_18.mip"         ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[15 , 129, 255]}
+        ,{"textureName":"#maps/drkmtl_scrn000.mip"  ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[180, 185, 240]}
+
+        // control room panel 
+        // sign50 255 50 50           
+
+        // eye scanners
+        ,{"textureName":"#maps/+0generic_113.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 50 , 50 ]}
+        ,{"textureName":"#maps/+1generic_113.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 50 , 50 ]}
+
+        // screen with green globe
+        ,{"textureName":"#maps/lab1_cmpm5.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]}
+
+        // test chamber screen with rectangle"   
+        ,{"textureName":"#maps/+0lab1_cmpm3.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]} //0.1
+        ,{"textureName":"#maps/+1lab1_cmpm3.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]} //0.1
+        ,{"textureName":"#maps/+2lab1_cmpm3.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]} //0.1
+        ,{"textureName":"#maps/+3lab1_cmpm3.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]} //0.1
+        ,{"textureName":"#maps/+4lab1_cmpm3.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]} //0.1
+        ,{"textureName":"#maps/+5lab1_cmpm3.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]} //0.1
+
+        //,{"textureName":"#maps/+0c1a4_swtch2.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[10 , 32 , 175]} //1.5
+        //,{"textureName":"#maps/+0c1a4_swtch3.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[175, 32 , 32 ]} //1.5
+        //,{"textureName":"#maps/+0c1a4_swtch4.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[32 , 175, 32 ]} //1.5
+        //,{"textureName":"#maps/+0c1a4_swtch5.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[62 , 6  , 4  ]} //1.5
+
+        ,{"textureName":"#maps/+abutton1.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[128, 82 , 30 ]} //1.0
+        ,{"textureName":"#maps/+0elev_down.mip"     ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[128, 82 , 30 ]} //0.5
+        ,{"textureName":"#maps/+aelev_down2.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[128, 82 , 30 ]} //1.0
+        ,{"textureName":"#maps/+0elev_up.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[128, 82 , 30 ]} //0.5
+        ,{"textureName":"#maps/+aelev_up2.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[128, 82 , 30 ]} //1.0
+
+        ,{"textureName":"#maps/+abuttonsuit.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 50 , 50 ]}
+        ,{"textureName":"#maps/+0buttonsuit.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]}
+        ,{"textureName":"#maps/+abutton2.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 50 , 50 ]}
+        ,{"textureName":"#maps/+abutton3.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[245, 160, 50 ]}
+        ,{"textureName":"#maps/+abutton4.mip"       ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]} //0.5
+        ,{"textureName":"#maps/+0~cretestch01a.mip" ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[50 , 255, 50 ]} //0.5
+        ,{"textureName":"#maps/+acrete_swtch1a.mip" ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[255, 50 , 50 ]}
+        ,{"textureName":"#maps/+a~metalstch2.mip"   ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[200, 50 , 50 ]}
+        ,{"textureName":"#maps/+ametswitch1.mip"    ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[200, 50 , 50 ]}
+        ,{"textureName":"#maps/c1a3yellow.mip"      ,"emissiveMult":0.1,"lightIntensity":100,"lightColor":[245, 160, 50 ]}
+        //HL:Blue Shift
+        ,{"textureName":"#maps/~light4a.mip","emissiveMult":0.1,"lightIntensity":100,"lightColor":[200, 190, 130] }
+        ,{"textureName":"fade2.mip", "forceTranslucent":true }
+        ,{"textureName":"#maps/ba_light01.mip", "emissiveMult":0.3, "lightIntensity":100,"lightColor":[200,190,130]}    
+        ,{"textureName":"#maps/0gymlight.mip", "emissiveMult":0.2,"lightIntensity":100,"lightColor":[247,231,140]}
+    ]
+}
