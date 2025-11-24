@@ -28,6 +28,8 @@
 
 
 # Work checklist
+ - [ ] ***Chapter Titles*** Requires recompilation of hlsdk-portable with specific functions xash-rt expects that set correct convars on chapter change
+ - [ ] ***Proper menu theming*** Not hard, just tedious.
  - [x] ***ba_tram1***
  - [x] ***ba_tram2***   
    - [x] **Fix the func_illusionary at the start of the map [The giant black rectangle]** Fixed by hex editing the map to remove the entity itself.
