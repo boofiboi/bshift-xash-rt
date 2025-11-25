@@ -1,4 +1,5 @@
 
+
 # bshift-xash-rt
 ### Half Life: Blue Shift ray traced using the [xash-rt](https://github.com/sultim-t/xash-rt) engine built by [sultim-t](https://github.com/sultim-t).
 
@@ -28,7 +29,8 @@
 
 
 # Work checklist
- - [ ] ***Chapter Titles*** Requires recompilation of hlsdk-portable with specific functions xash-rt expects that set correct convars on chapter change
+ - [x] ***Chapter Titles*** Requires recompilation of hlsdk-portable with specific functions xash-rt expects that set correct convars on chapter change
+			 ***I've sucesfully managed to recompile the SDK, xash-rt how ever still does not display the chapter titles. I have brought this up in an issue on the original repo, so hopefully I get some guidance how to correct this.***
  - [ ] ***Proper menu theming*** Not hard, just tedious.
  - [x] ***ba_tram1***
  - [x] ***ba_tram2***   
