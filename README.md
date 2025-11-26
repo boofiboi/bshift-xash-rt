@@ -29,18 +29,5 @@
 
 
 # Work checklist
- - [x] ***Chapter Titles*** Requires recompilation of hlsdk-portable with specific functions xash-rt expects that set correct convars on chapter change
-			 ***I've sucesfully managed to recompile the SDK, xash-rt how ever still does not display the chapter titles. I have brought this up in an issue on the original repo, so hopefully I get some guidance how to correct this.***
- - [ ] ***Proper menu theming*** Not hard, just tedious.
- - [x] ***ba_tram1***
- - [x] ***ba_tram2***   
-   - [x] **Fix the func_illusionary at the start of the map [The giant black rectangle]** Fixed by hex editing the map to remove the entity itself.
-   - [x] **Fix missing textures**  This turned out to be a user issue, as I didn't restart Blender every time I worked on a new map, Blender thus kept all of the old material files which caused conflicts in the newly imported GLTF files and renamed all duplicate materials causing the game to not know where to find the files for them
-	- [ ] **Fix RT fireflies at the start of the map** (The sun LOVES to leak on this one)
-- [x] ***ba_tram3***
-  - [x] **Add some RT sprinkle here and there, as the map is incredibly bland and has a lot of phantom lights**
-- [x] ***ba_security1*** [Short in-between map, no work needed other than exporting the gltf]
-- [ ] ***ba_security2***
-  - [x]  **Again as with ba_tram2, the map requires a lot of fixing missing/incorectly exported textures** 
-  - [ ] **Fix the lights in the elevator that goes to the armory**
-  - [x] **Add some RT sprinkles again**
+### The work progress is available in the .md files located in docs/. 
+### They are obsidian markdown files, so if you have obsidian, you can open them in there. <br>Otherwise, regular markdown parsers should work fine, you just wont have a kanban board, just the regular checkboxes.
