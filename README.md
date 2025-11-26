@@ -7,9 +7,8 @@
 
 
 ### Previews:
-![Start of the game](https://img.boofi.dev/u/gebD6r.jpg)
-![Start of the game 2](http://img.boofi.dev/u/5yF0tE.jpg)
-![ba_tram2](http://img.boofi.dev/u/pcWfgq.jpg)
+![Start of the game](https://img.boofi.dev/u/gebD6r.jpg =400x300)![Start of the game 2](http://img.boofi.dev/u/5yF0tE.jpg =400x300)
+![ba_tram2](http://img.boofi.dev/u/pcWfgq.jpg =400x300)![ba_security2](http://img.boofi.dev/u/gsAmkR.jpg =400x300) ![ba_security2](http://img.boofi.dev/u/whcd6Y.jpg =400x300)
 
 ### What does this require?
 #### You will need to:
