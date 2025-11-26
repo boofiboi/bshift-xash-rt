@@ -27,9 +27,6 @@ kanban-plugin: board
 
 ## In progress
 
-- [ ] ba_security2 - Improve lights
-- [ ] ba_security2 - Fix elevator lights (If unfixable, add a sign in RT that says "Lights out of order")
-- [ ] ba_security2 - Fix lights over the Barney at the end of the map
 
 
 ## Unfixable without map modifications
@@ -39,16 +36,23 @@ kanban-plugin: board
 ## Map Tweaks
 
 - [ ] ba_tram2 - RT rizz
-- [ ] ba_security2 - Add RT rizz (Materials)
-- [ ] ba_security2 - PSN gift card in Barney's locker as an easter egg to HLVR:AI
-- [ ] ba_security2 - Armoury tweaks
 - [ ] ba_maint - RT rizz
 
 
 ## Finished
 
 **Complete**
+- [x] ba_security2 - PSN gift card in Barney's locker as an easter egg to HLVR:AI
+- [x] ba_security2 - Add RT rizz (Materials)
+- [x] ba_security2 - Fix lights over the Barney at the end of the map
+- [x] ba_security2 - Armoury tweaks
+- [x] ba_security2 - Improve lights
+- [x] ba_security2 - Fix elevator lights
 - [x] ba_tram1 - Add some RT rizz
+
+
+## NOTE TO SELF: DO NOT FORGET TO REMOVE TEXTURES FROM SCENES! THEY ONLY SERVE TO EXIST IN BLENDER AND SHOULD NOT GET SHIPPED!!!
+
 
 
 

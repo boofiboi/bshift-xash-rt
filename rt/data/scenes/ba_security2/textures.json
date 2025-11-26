@@ -1,0 +1,11 @@
+{
+    "version": 0,
+    "array": [
+        {"textureName":"#maps/generic45.mip","roughnessDefault":0.02}
+       ,{"textureName":"#maps/+0~generic65.mip", "emissiveMult":0.3,"lightIntensity":100,"lightColor":[255, 200, 100]}
+       ,{"textureName":"#maps/elev2_ciel.mip", "lightEvenOnDynamic":true,"emissiveMult":0.3,"lightIntensity":300,"lightColor":[255, 200, 100]}
+       ,{"textureName":"#maps/~trn_lt1.mip","emissiveMult":4,"lightIntensity":2000,"lightColor":[255, 200, 100]}
+       ,{"textureName":"#maps/+0~fifties_lgt2.mip" ,"emissiveMult":0.8,"lightIntensity":300,"lightColor":[240, 240, 240]}
+
+    ]
+}

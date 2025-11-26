@@ -7,7 +7,6 @@ kanban-plugin: board
 ## Found
 
 - [ ] Fix chapter titles
-- [ ] Dynamic player model like in base campaign
 
 
 ## Unfixable
@@ -16,6 +15,7 @@ kanban-plugin: board
 
 ## Fixed
 
+- [ ] Dynamic player model like in base campaign
 
 
 
