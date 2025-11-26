@@ -7,8 +7,10 @@
 
 
 ### Previews:
-![Start of the game](https://img.boofi.dev/u/gebD6r.jpg =400x300)![Start of the game 2](http://img.boofi.dev/u/5yF0tE.jpg =400x300)
-![ba_tram2](http://img.boofi.dev/u/pcWfgq.jpg =400x300)![ba_security2](http://img.boofi.dev/u/gsAmkR.jpg =400x300) ![ba_security2](http://img.boofi.dev/u/whcd6Y.jpg =400x300)
+<img src="https://img.boofi.dev/u/gebD6r.jpg" alt="Start of the game" width=400><img src="http://img.boofi.dev/u/5yF0tE.jpg" alt="Start of the game 2" width=400>
+<img src="http://img.boofi.dev/u/pcWfgq.jpg" alt="Tram ride" width=400>
+<img src="http://img.boofi.dev/u/gsAmkR.jpg" alt="Armoury in insecurity" width=400> 
+<img src="http://img.boofi.dev/u/whcd6Y.jpg" alt="Lobby in insecurity" width=400>
 
 ### What does this require?
 #### You will need to:
